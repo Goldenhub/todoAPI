@@ -1,0 +1,34 @@
+
+POST http://localhost:5134/todos
+Content-Type: application/json
+
+{
+    "name": "Learn WASM",
+    "dueDate": "2025-03-11"
+}
+
+###
+
+GET http://localhost:5134/todos
+
+###
+
+GET http://localhost:5134/todos/1
+
+###
+
+DELETE http://localhost:5134/todos/2
+
+###
+
+PATCH http://localhost:5134/todos/1
+
+###
+
+GET http://localhost:5134/tasks
+
+###
+
+GET http://localhost:5134/tasks/1/2
+
+###
